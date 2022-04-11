@@ -1,0 +1,15 @@
+body{
+    background-color: $color-background;
+
+    @include mq('tablet'){
+        background-color: $color-tablet;
+    }
+
+    @include mq('desktop'){
+        background-color: $color-laptop;
+    }
+
+    @include mq('large'){
+        background-color: orangered;
+    }
+}
